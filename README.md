@@ -27,9 +27,9 @@ CattleCare AI helps smallholder farmers and cattle traders get an early, AI-assi
 
 ```
                      ┌─────────────────────┐
-   Photo + Symptoms   │   Input Validation   │   gpt-4o-mini classifiers check:
-   ─────────────────▶ │  (chitchat / image   │   "is this a real symptom?"
-                       │   relevance checks)  │   "does this image show cattle?"
+   Photo + Symptoms  │   Input Validation   │   gpt-4o-mini classifiers check:
+   ─────────────────▶│  (chitchat / image   │   "is this a real symptom?"
+                      │   relevance checks)  │   "does this image show cattle?"
                       └──────────┬───────────┘
                                  │ valid input(s)
                                  ▼
