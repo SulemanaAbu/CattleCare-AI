@@ -20,7 +20,6 @@ import json
 import base64
 import random
 from pathlib import Path
-
 from dotenv import load_dotenv
 from openai import OpenAI
 import matplotlib.pyplot as plt
