@@ -4,6 +4,8 @@
 
 Final Year Project — University of Ghana, Department of Computer Science (2025/2026)
 
+**Live app:** [cattlecare.streamlit.app](https://cattlecare.streamlit.app)
+
 CattleCare AI helps smallholder farmers and cattle traders get an early, AI-assisted read on three common conditions — **Foot-and-Mouth Disease (FMD)**, **Lumpy Skin Disease (LSD)**, and **Healthy** — from a photo, a description of observed symptoms, or both. It is built around a Gemma 3 vision-language model fine-tuned specifically on Ghanaian cattle disease presentations, served through a Streamlit interface.
 
 > ⚠️ **Disclaimer:** This is a decision-support tool, not a replacement for veterinary diagnosis. Always consult a qualified veterinarian for confirmation and treatment.
@@ -140,6 +142,33 @@ HF_BASE_ENDPOINT_URL=https://your-base-endpoint.endpoints.huggingface.cloud
 ```bash
 streamlit run app.py
 ```
+
+---
+
+## Deployment
+
+The app is deployed on **Streamlit Community Cloud** at **https://cattlecare.streamlit.app**, directly from this GitHub repository. Every push to `main` redeploys it automatically.
+
+### Deploy your own copy
+
+1. Push the repo to GitHub. `.env`, `.venv/`, `Cows datasets/` and results folders are excluded by `.gitignore`.
+2. At [share.streamlit.io](https://share.streamlit.io), sign in with GitHub and click **Create app**.
+3. Choose the repository, branch `main`, and main file `app.py`.
+4. Under **Advanced settings → Secrets**, add (TOML, no section header):
+   ```toml
+   HF_TOKEN = "hf_..."
+   HF_FINETUNED_ENDPOINT_URL = "https://your-finetuned-endpoint.endpoints.huggingface.cloud"
+   HF_BASE_ENDPOINT_URL = "https://your-base-endpoint.endpoints.huggingface.cloud"
+   OPENAI_API_KEY = "sk-..."
+   ```
+   Streamlit exposes these as environment variables, so `app.py` needs no changes.
+5. Click **Deploy**.
+
+### Operating notes
+
+- The web page is always available, but **diagnoses only work while both Hugging Face endpoints are running**. The endpoints bill per hour, so resume them before a demo and pause them afterwards. The first request after resuming can take 1–2 minutes.
+- The free Streamlit tier puts the app to sleep after several days without visits; opening the link wakes it up.
+- If the sidebar shows "not configured" warnings, a secret is missing or misnamed.
 
 ---
 
