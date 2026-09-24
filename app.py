@@ -3,28 +3,70 @@ import base64
 import os
 import re
 import html
-from pathlib import Path
 from openai import OpenAI
 from dotenv import load_dotenv
 from PIL import Image
-import io
 
 # Load environment variables
 load_dotenv()
 
-# ── OpenAI client (used as the base-model fallback option) ───────────────────
-client = OpenAI(api_key=os.getenv("OPENAI_API_KEY"))
 
-# ── Hugging Face Inference Endpoint client (your fine-tuned Gemma model) ─────
-# The OpenAI-compatible route means we can reuse the same OpenAI SDK,
-# just pointed at a different base_url + token.
-HF_ENDPOINT_URL = os.getenv("HF_ENDPOINT_URL")  # e.g. https://xxxx.endpoints.huggingface.cloud/v1
+# ── Endpoint configuration ────────────────────────────────────────────────────
+# Three services are used:
+#   1. Fine-tuned Gemma 3 (4B) on a Hugging Face Inference Endpoint  -> diagnosis (toggle ON)
+#   2. Base, non-fine-tuned Gemma 3 (4B) on its own HF endpoint      -> diagnosis (toggle OFF)
+#   3. OpenAI GPT-4o-mini                                           -> input validation ONLY
+# Both Gemma endpoints run vLLM, which exposes an OpenAI-compatible API, so the
+# same OpenAI SDK is reused for all three, just pointed at different base URLs.
+
+def _normalize_endpoint_url(url):
+    """Accept the endpoint URL with or without a trailing '/v1' and return it
+    in the form the OpenAI SDK expects (…/v1)."""
+    if not url:
+        return None
+    url = url.strip().rstrip("/")
+    return url if url.endswith("/v1") else url + "/v1"
+
+
 HF_TOKEN = os.getenv("HF_TOKEN")
-GEMMA_MODEL_NAME = os.getenv("GEMMA_MODEL_NAME", "gemma3-cattle-disease-ghana")
 
-hf_client = None
-if HF_ENDPOINT_URL and HF_TOKEN:
-    hf_client = OpenAI(base_url=HF_ENDPOINT_URL, api_key=HF_TOKEN)
+# Fine-tuned endpoint (HF_ENDPOINT_URL kept for backwards compatibility with the old .env)
+FINETUNED_ENDPOINT_URL = _normalize_endpoint_url(
+    os.getenv("HF_FINETUNED_ENDPOINT_URL") or os.getenv("HF_ENDPOINT_URL")
+)
+# Base (original, non-fine-tuned) Gemma 3 endpoint: google/gemma-3-4b-it
+BASE_ENDPOINT_URL = _normalize_endpoint_url(os.getenv("HF_BASE_ENDPOINT_URL"))
+
+# Optional explicit model names; if unset they are discovered from the endpoint
+FINETUNED_MODEL_OVERRIDE = os.getenv("FINETUNED_MODEL_NAME") or os.getenv("GEMMA_MODEL_NAME")
+BASE_MODEL_OVERRIDE = os.getenv("BASE_MODEL_NAME")
+
+# OpenAI client: used ONLY for the GPT-4o-mini input-validation checks
+OPENAI_API_KEY = os.getenv("OPENAI_API_KEY")
+client = OpenAI(api_key=OPENAI_API_KEY) if OPENAI_API_KEY else None
+
+finetuned_client = (OpenAI(base_url=FINETUNED_ENDPOINT_URL, api_key=HF_TOKEN)
+                    if FINETUNED_ENDPOINT_URL and HF_TOKEN else None)
+base_client = (OpenAI(base_url=BASE_ENDPOINT_URL, api_key=HF_TOKEN)
+               if BASE_ENDPOINT_URL and HF_TOKEN else None)
+
+
+@st.cache_resource(show_spinner=False)
+def _resolve_model_name(endpoint_url, override, fallback):
+    """Return the model name the vLLM server expects. Uses the override from
+    .env if given; otherwise asks the endpoint (/v1/models); otherwise falls
+    back to a sensible default. Cached so the lookup runs once per endpoint."""
+    if override:
+        return override
+    try:
+        probe = OpenAI(base_url=endpoint_url, api_key=HF_TOKEN)
+        models = probe.models.list().data
+        if models:
+            return models[0].id
+    except Exception:
+        pass  # endpoint may be scaled to zero; fall back and let the real call wake it
+    return fallback
+
 
 # ── Page Configuration ────────────────────────────────────────────────────────
 st.set_page_config(
@@ -172,16 +214,28 @@ clearer photo and/or a real description of what they observe."""
 
 
 def _get_client_and_model(use_finetuned):
-    """Returns (client, model_name) — fine-tuned requests go to the HF
-    Inference Endpoint running your Gemma model; base requests go to OpenAI."""
+    """Returns (client, model_name) for the selected diagnostic backend.
+    Toggle ON  -> fine-tuned Gemma 3 endpoint.
+    Toggle OFF -> base (non-fine-tuned) Gemma 3 endpoint, google/gemma-3-4b-it.
+    Both receive exactly the same prompts and inputs, so any difference in the
+    diagnosis is attributable to fine-tuning. GPT-4o-mini is never used here."""
     if use_finetuned:
-        if hf_client is None:
+        if finetuned_client is None:
             raise RuntimeError(
-                "Fine-tuned model selected but HF_ENDPOINT_URL / HF_TOKEN are not "
-                "set in your .env file. Add them or switch off 'Use Fine-tuned Model'."
+                "Fine-tuned model selected but HF_FINETUNED_ENDPOINT_URL (or HF_ENDPOINT_URL) "
+                "and HF_TOKEN are not set in your .env file."
             )
-        return hf_client, GEMMA_MODEL_NAME
-    return client, "gpt-4o-mini"
+        model = _resolve_model_name(FINETUNED_ENDPOINT_URL, FINETUNED_MODEL_OVERRIDE,
+                                    "gemma3-cattle-disease-ghana")
+        return finetuned_client, model
+
+    if base_client is None:
+        raise RuntimeError(
+            "Base model selected but HF_BASE_ENDPOINT_URL and HF_TOKEN are not set in your "
+            ".env file. Add them, or switch 'Use Fine-tuned Model' back on."
+        )
+    model = _resolve_model_name(BASE_ENDPOINT_URL, BASE_MODEL_OVERRIDE, "google/gemma-3-4b-it")
+    return base_client, model
 
 
 def analyze_image_only(image_bytes, image_type="jpeg", use_finetuned=True):
@@ -284,7 +338,7 @@ _KNOWN_LABELS = sorted([
 ], key=len, reverse=True)
 
 _LABEL_PATTERN = re.compile(
-    r"(?:\d+\.\s*)?(" + "|".join(re.escape(l) for l in _KNOWN_LABELS) + r")\s*:\s*",
+    r"(?:\d+\.\s*)?(?:\*\*)?(" + "|".join(re.escape(l) for l in _KNOWN_LABELS) + r")(?:\*\*)?\s*:\s*(?:\*\*)?",
     re.IGNORECASE,
 )
 
@@ -295,7 +349,7 @@ def _split_action_items(content):
     (partway through) no numbering at all."""
     lines = [ln.strip() for ln in content.split("\n") if ln.strip()]
     if len(lines) > 1:
-        return [re.sub(r"^\d+\.\s*", "", ln) for ln in lines]
+        return [re.sub(r"^(\d+\.|[-*•])\s*", "", ln) for ln in lines]
 
     parts = [p.strip() for p in re.split(r"\d+\.\s+", content) if p.strip()]
     if len(parts) > 1:
@@ -395,6 +449,8 @@ def _classify_is_symptom(symptoms_text):
     separately echoed its own system instructions back verbatim instead of
     following them. A small, fast classification call is far more reliable
     than trying to keyword-match arbitrary natural language."""
+    if client is None:
+        return False  # no OpenAI key: fail open, let the diagnostic model try
     try:
         resp = client.chat.completions.create(
             model="gpt-4o-mini",
@@ -419,7 +475,7 @@ def _classify_is_symptom(symptoms_text):
         answer = resp.choices[0].message.content.strip().upper()
         return not answer.startswith("Y")  # True == needs more info
     except Exception:
-        # If the classifier call itself fails (e.g. no OpenAI key set),
+        # If the classifier call itself fails (e.g. OpenAI unreachable),
         # don't block the user — fall through and let the main model try.
         return False
 
@@ -438,6 +494,8 @@ def _classify_is_cattle_image(image_bytes, image_type="jpeg"):
     gets one quick, cheap gpt-4o-mini vision call asking a plain yes/no
     question, rather than trusting the fine-tuned model to notice on its
     own that a photo isn't cattle at all (it hasn't reliably done so)."""
+    if client is None:
+        return True  # no OpenAI key: fail open, let the diagnostic model try
     try:
         img_base64 = image_to_base64(image_bytes)
         resp = client.chat.completions.create(
@@ -485,10 +543,17 @@ with st.sidebar:
     This system uses a fine-tuned Gemma 3 vision model 
     trained on farmer-observable symptoms in Ghanaian cattle disease data to help 
     farmers detect diseases early and also help traders make informed decisions.
+    Switching off the model toggle sends the same request to the original,
+    non-fine-tuned Gemma 3 model for comparison.
     """)
 
-    if hf_client is None:
-        st.warning("⚠️ Fine-tuned Gemma endpoint not configured — set `HF_ENDPOINT_URL` and `HF_TOKEN` in your .env file.")
+    # Configuration status for all three services
+    if finetuned_client is None:
+        st.warning("⚠️ Fine-tuned Gemma endpoint not configured: set `HF_FINETUNED_ENDPOINT_URL` and `HF_TOKEN` in your .env file.")
+    if base_client is None:
+        st.warning("⚠️ Base Gemma endpoint not configured: set `HF_BASE_ENDPOINT_URL` in your .env file.")
+    if client is None:
+        st.warning("⚠️ `OPENAI_API_KEY` not set: input validation will be skipped.")
 
     st.markdown("### Diseases Detected")
     st.markdown("""
@@ -598,9 +663,12 @@ with tab1:
         use_finetuned = st.toggle(
             "Use Fine-tuned Model",
             value=True,
-            help="Fine-tuned Gemma model (hosted on your HF Inference Endpoint), specialized for Ghanaian cattle diseases"
+            help="ON: fine-tuned Gemma 3, specialised for Ghanaian cattle diseases. "
+                 "OFF: the original, non-fine-tuned Gemma 3 (google/gemma-3-4b-it), "
+                 "given exactly the same prompt, for comparison."
         )
-        model_label = "Fine-tuned Gemma 3 (HF Endpoint)" if use_finetuned else "Base GPT-4o-mini"
+        model_label = ("Fine-tuned Gemma 3 (HF Endpoint)" if use_finetuned
+                       else "Base Gemma 3, not fine-tuned (HF Endpoint)")
         st.info(f"Using: **{model_label}**")
 
         analyze_btn = st.button("🔍 Analyze Cattle Health", type="primary")
@@ -627,7 +695,7 @@ with tab1:
 
                         # Validate each input independently before deciding
                         # which analysis path to take. Neither check is
-                        # trusted to the fine-tuned model itself — both go
+                        # trusted to the diagnostic model itself — both go
                         # through a small, cheap gpt-4o-mini classification
                         # call, since the fine-tuned model has proven
                         # unreliable at noticing bad input on its own.
@@ -679,8 +747,9 @@ with tab1:
                                 problems.append("no image or symptom description was provided")
                             insufficient_reason = "; ".join(problems) if problems else None
 
-                        # Show analysis mode
-                        st.success(f"Analysis complete — **{mode}** mode")
+                        # Show analysis mode and which model produced it
+                        backend = "fine-tuned model" if use_finetuned else "base model"
+                        st.success(f"Analysis complete — **{mode}** mode ({backend})")
 
                         if insufficient_info:
                             detail = f" ({insufficient_reason})" if insufficient_reason else ""
@@ -725,7 +794,10 @@ with tab1:
 
                     except Exception as e:
                         st.error(f"Analysis failed: {str(e)}")
-                        st.info("Check your API keys/endpoint URL in the .env file. If using the fine-tuned model, the HF endpoint may be scaled to zero — the first request after idle time can take 1-2 minutes to cold-start.")
+                        st.info("Check the endpoint URLs and HF_TOKEN in your .env file. "
+                                "If an endpoint is paused or scaled to zero, resume it on "
+                                "Hugging Face; the first request after idle time can take "
+                                "1-2 minutes to cold-start.")
 
         else:
             st.markdown("""

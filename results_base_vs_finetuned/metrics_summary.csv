@@ -1,0 +1,9 @@
+mode,model,n,accuracy,acc_ci95_low,acc_ci95_high,macro_precision,macro_recall,macro_f1,weighted_f1,unclear
+image_only,base,90,0.3222,0.2347,0.4243,0.7059,0.3222,0.305,0.305,31
+image_only,finetuned,90,0.9556,0.8912,0.9826,0.9562,0.9556,0.9551,0.9551,0
+symptoms_only,base,90,0.4333,0.3358,0.5364,0.5128,0.4333,0.4065,0.4065,27
+symptoms_only,finetuned,90,1.0,0.9591,1.0,1.0,1.0,1.0,1.0,0
+combined,base,90,0.5778,0.4746,0.6746,0.8994,0.5778,0.5911,0.5911,27
+combined,finetuned,90,1.0,0.9591,1.0,1.0,1.0,1.0,1.0,0
+all_modes,base,270,0.4444,0.3864,0.5041,0.8288,0.4444,0.4443,0.4443,85
+all_modes,finetuned,270,0.9852,0.9625,0.9942,0.9853,0.9852,0.9851,0.9851,0

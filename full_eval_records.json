@@ -1,0 +1,233 @@
+{
+  "image_only": [
+    {
+      "true": "foot-and-mouth",
+      "predicted": "foot-and-mouth",
+      "response": "1. Disease name: Foot-and-Mouth Disease\n2. Confidence level: High\n3. Key symptoms visible in the image: visible vesicles (fluid-filled blisters) and erosions around the mouth, tongue, gums, and/or the coronary band of the feet.\n4. Recommended actions:\n1. Isolate this animal from the rest of your herd immediately\n2. Do NOT move the animal off your farm\n3. Contact the Ghana Veterinary Service or your nearest vet right away\n4. Disinfect all areas, tools, and equipment the animal has contacted\n5. Do not sell milk or meat from this animal until cleared by a vet\n6. Report the case \u2014 FMD is a notifiable disease under WOAH reporting standards"
+    },
+    {
+      "true": "foot-and-mouth",
+      "predicted": "foot-and-mouth",
+      "response": "1. Disease name: Foot-and-Mouth Disease\n2. Confidence level: High\n3. Key symptoms visible in the image: visible vesicles (fluid-filled blisters) and erosions around the mouth, tongue, gums, and/or the coronary band of the feet.\n4. Recommended actions:\n1. Isolate this animal from the rest of your herd immediately\n2. Do NOT move the animal off your farm\n3. Contact the Ghana Veterinary Service or your nearest vet right away\n4. Disinfect all areas, tools, and equipment the animal has contacted\n5. Do not sell milk or meat from this animal until cleared by a vet\n6. Report the case \u2014 FMD is a notifiable disease under WOAH reporting standards"
+    },
+    {
+      "true": "foot-and-mouth",
+      "predicted": "foot-and-mouth",
+      "response": "1. Disease name: Foot-and-Mouth Disease\n2. Confidence level: Medium\n3. Key symptoms visible in the image: visible vesicles (fluid-filled blisters) and erosions around the mouth, tongue, gums, and/or the coronary band of the feet.\n4. Recommended actions:\n1. Isolate this animal from the rest of your herd immediately\n2. Do NOT move the animal off your farm\n3. Contact the Ghana Veterinary Service or your nearest vet right away\n4. Disinfect all areas, tools, and equipment the animal has contacted\n5. Do not sell milk or meat from this animal until cleared by a vet\n6. Report the case \u2014 FMD is a notifiable disease under WOAH reporting standards"
+    },
+    {
+      "true": "foot-and-mouth",
+      "predicted": "foot-and-mouth",
+      "response": "1. Disease name: Foot-and-Mouth Disease\n2. Confidence level: Medium\n3. Key symptoms visible in the image: visible vesicles (fluid-filled blisters) and erosions around the mouth, tongue, gums, and/or the coronary band of the feet.\n4. Recommended actions:\n1. Isolate this animal from the rest of your herd immediately\n2. Do NOT move the animal off your farm\n3. Contact the Ghana Veterinary Service or your nearest vet right away\n4. Disinfect all areas, tools, and equipment the animal has contacted\n5. Do not sell milk or meat from this animal until cleared by a vet\n6. Report the case \u2014 FMD is a notifiable disease under WOAH reporting standards"
+    },
+    {
+      "true": "foot-and-mouth",
+      "predicted": "foot-and-mouth",
+      "response": "1. Disease name: Foot-and-Mouth Disease\n2. Confidence level: High\n3. Key symptoms visible in the image: visible vesicles (fluid-filled blisters) and erosions around the mouth, tongue, gums, and/or the coronary band of the feet.\n4. Recommended actions:\n1. Isolate this animal from the rest of your herd immediately\n2. Do NOT move the animal off your farm\n3. Contact the Ghana Veterinary Service or your nearest vet right away\n4. Disinfect all areas, tools, and equipment the animal has contacted\n5. Do not sell milk or meat from this animal until cleared by a vet\n6. Report the case \u2014 FMD is a notifiable disease under WOAH reporting standards"
+    },
+    {
+      "true": "lumpy",
+      "predicted": "lumpy",
+      "response": "1. Disease name: Lumpy Skin Disease\n2. Confidence level: High\n3. Key symptoms visible in the image: multiple firm, raised skin nodules, most often concentrated around the head, neck, and limbs, consistent with Lumpy Skin Disease lesions.\n4. Recommended actions:\n1. Isolate the affected animal from the rest of your herd immediately\n2. Vaccinate healthy cattle in your herd as prevention\n3. Contact your veterinarian for treatment and confirmation options\n4. Keep the animal in a shaded area away from biting insects\n5. Do not sell or move this animal off your farm until cleared by a vet"
+    },
+    {
+      "true": "lumpy",
+      "predicted": "lumpy",
+      "response": "1. Disease name: Lumpy Skin Disease\n2. Confidence level: Medium\n3. Key symptoms visible in the image: multiple firm, raised skin nodules, most often concentrated around the head, neck, and limbs, consistent with Lumpy Skin Disease lesions.\n4. Recommended actions:\n1. Isolate the affected animal from the rest of your herd immediately\n2. Vaccinate healthy cattle in your herd as prevention\n3. Contact your veterinarian for treatment and confirmation options\n4. Keep the animal in a shaded area away from biting insects\n5. Do not sell or move this animal off your farm until cleared by a vet"
+    },
+    {
+      "true": "lumpy",
+      "predicted": "lumpy",
+      "response": "1. Disease name: Lumpy Skin Disease\n2. Confidence level: High\n3. Key symptoms visible in the image: multiple firm, raised skin nodules, most often concentrated around the head, neck, and limbs, consistent with Lumpy Skin Disease lesions.\n4. Recommended actions:\n1. Isolate the affected animal from the rest of your herd immediately\n2. Vaccinate healthy cattle in your herd as prevention\n3. Contact your veterinarian for treatment and confirmation options\n4. Keep the animal in a shaded area away from biting insects\n5. Do not sell or move this animal off your farm until cleared by a vet"
+    },
+    {
+      "true": "lumpy",
+      "predicted": "lumpy",
+      "response": "1. Disease name: Lumpy Skin Disease\n2. Confidence level: Medium\n3. Key symptoms visible in the image: multiple firm, raised skin nodules, most often concentrated around the head, neck, and limbs, consistent with Lumpy Skin Disease lesions.\n4. Recommended actions:\n1. Isolate the affected animal from the rest of your herd immediately\n2. Vaccinate healthy cattle in your herd as prevention\n3. Contact your veterinarian for treatment and confirmation options\n4. Keep the animal in a shaded area away from biting insects\n5. Do not sell or move this animal off your farm until cleared by a vet"
+    },
+    {
+      "true": "lumpy",
+      "predicted": "lumpy",
+      "response": "1. Disease name: Lumpy Skin Disease\n2. Confidence level: High\n3. Key symptoms visible in the image: multiple firm, raised skin nodules, most often concentrated around the head, neck, and limbs, consistent with Lumpy Skin Disease lesions.\n4. Recommended actions:\n1. Isolate the affected animal from the rest of your herd immediately\n2. Vaccinate healthy cattle in your herd as prevention\n3. Contact your veterinarian for treatment and confirmation options\n4. Keep the animal in a shaded area away from biting insects\n5. Do not sell or move this animal off your farm until cleared by a vet"
+    },
+    {
+      "true": "healthy",
+      "predicted": "healthy",
+      "response": "1. Disease name: Healthy\n2. Confidence level: Medium\n3. Key symptoms visible in the image: no visible blisters, nodules, or skin lesions; the coat, mouth, and feet appear normal.\n4. Recommended actions:\n1. Continue regular health monitoring of your herd\n2. Maintain good hygiene and sanitation on your farm\n3. Ensure the animal has access to clean water and balanced feed\n4. Keep vaccination schedules up to date\n5. Schedule regular veterinary checkups\n6. Monitor for any changes in behavior, appetite, or appearance"
+    },
+    {
+      "true": "healthy",
+      "predicted": "healthy",
+      "response": "1. Disease name: Healthy\n2. Confidence level: Medium\n3. Key symptoms visible in the image: no visible blisters, nodules, or skin lesions; the coat, mouth, and feet appear normal.\n4. Recommended actions:\n1. Continue regular health monitoring of your herd\n2. Maintain good hygiene and sanitation on your farm\n3. Ensure the animal has access to clean water and balanced feed\n4. Keep vaccination schedules up to date\n5. Schedule regular veterinary checkups\n6. Monitor for any changes in behavior, appetite, or appearance"
+    },
+    {
+      "true": "healthy",
+      "predicted": "healthy",
+      "response": "1. Disease name: Healthy\n2. Confidence level: Medium\n3. Key symptoms visible in the image: no visible blisters, nodules, or skin lesions; the coat, mouth, and feet appear normal.\n4. Recommended actions:\n1. Continue regular health monitoring of your herd\n2. Maintain good hygiene and sanitation on your farm\n3. Ensure the animal has access to clean water and balanced feed\n4. Keep vaccination schedules up to date\n5. Schedule regular veterinary checkups\n6. Monitor for any changes in behavior, appetite, or appearance"
+    },
+    {
+      "true": "healthy",
+      "predicted": "healthy",
+      "response": "1. Disease name: Healthy\n2. Confidence level: High\n3. Key symptoms visible in the image: no visible blisters, nodules, or skin lesions; the coat, mouth, and feet appear normal.\n4. Recommended actions:\n1. Continue regular health monitoring of your herd\n2. Maintain good hygiene and sanitation on your farm\n3. Ensure the animal has access to clean water and balanced feed\n4. Keep vaccination schedules up to date\n5. Schedule regular veterinary checkups\n6. Monitor for any changes in behavior, appetite, or appearance"
+    },
+    {
+      "true": "healthy",
+      "predicted": "healthy",
+      "response": "1. Disease name: Healthy\n2. Confidence level: Medium\n3. Key symptoms visible in the image: no visible blisters, nodules, or skin lesions; the coat, mouth, and feet appear normal.\n4. Recommended actions:\n1. Continue regular health monitoring of your herd\n2. Maintain good hygiene and sanitation on your farm\n3. Ensure the animal has access to clean water and balanced feed\n4. Keep vaccination schedules up to date\n5. Schedule regular veterinary checkups\n6. Monitor for any changes in behavior, appetite, or appearance"
+    }
+  ],
+  "symptoms_only": [
+    {
+      "true": "foot-and-mouth",
+      "predicted": "foot-and-mouth",
+      "response": "1. Most likely disease name Foot-and-Mouth Disease\n2. Confidence level High\n3. Why these symptoms suggest this disease The reported loss of appetite, lameness or limping, reluctance to move or stand are consistent with Foot-and-Mouth Disease. Foot-and-Mouth Disease is a highly contagious viral disease of cloven-hoofed animals, spread through direct contact, contaminated equipment, and airborne transmission.\n4. Recommended actions\n1. Isolate this animal from the rest of your herd immediately\n2. Do NOT move the animal off your farm\n3. Contact the Ghana Veterinary Service or your nearest vet right away\n4. Disinfect all areas, tools, and equipment the animal has contacted\n5. Do not sell milk or meat from this animal until cleared by a vet\n6. Report the case \u2014 it\u2019s a legal requirement in Ghana\n5. Other possible diseases to rule out Vesicular stomatitis and other blistering conditions can resemble Foot-and-Mouth Disease, and lameness alone can also stem from foot rot or injury \u2014 a veterinarian should confirm the diagnosis."
+    },
+    {
+      "true": "foot-and-mouth",
+      "predicted": "foot-and-mouth",
+      "response": "1. Most likely disease name: Foot-and-Mouth Disease\n2. Confidence level: High\n3. Why these symptoms suggest this disease: The reported blisters or sores on the mouth and feet, lameness or limping, excessive salivation, fever are consistent with Foot-and-Mouth Disease. Foot-and-Mouth Disease is a highly contagious viral disease of cloven-hoofed animals, spread through direct contact, contaminated equipment, and airborne transmission.\n4. Recommended actions:\n1. Isolate this animal from the rest of your herd immediately\n2. Do NOT move the animal off your farm\n3. Contact the Ghana Veterinary Service or your nearest vet right away\n4. Disinfect all areas, tools, and equipment the animal has contacted\n5. Do not sell milk or meat from this animal until cleared by a vet\n6. Report the case \u2014 it is a legal requirement in Ghana\n5. Other possible diseases to rule out: Vesicular stomatitis and other blistering conditions can resemble Foot-and-Mouth Disease, and lameness alone can also stem from foot rot or injury \u2014 a veterinarian should confirm the diagnosis."
+    },
+    {
+      "true": "foot-and-mouth",
+      "predicted": "foot-and-mouth",
+      "response": "1. Most likely disease name: Foot-and-Mouth Disease\n2. Confidence level: Medium\n3. Why these symptoms suggest this disease: The reported reluctance to move or stand, fever, blisters or sores on the mouth and feet are consistent with Foot-and-Mouth Disease. Foot-and-Mouth Disease (FMD) is a highly contagious viral disease of cloven-hoofed animals, spread through direct contact, contaminated equipment, and airborne transmission. It is a notifiable disease under international (WOAH) reporting standards, meaning any suspected case must be reported to veterinary authorities without delay.\n4. Recommended actions:\n1. Isolate this animal from the rest of your herd immediately\n2. Do NOT move the animal off your farm\n3. Contact the Ghana Veterinary Service or your nearest vet right away\n4. Disinfect all areas, tools, and equipment the animal has contacted\n5. Do not sell milk or meat from this animal until cleared by a vet\n6. Report the case \u2014 FMD is a notifiable disease under WOAH reporting standards\n5. Other possible diseases to rule out: Vesicular stomatitis and other blistering conditions can resemble FMD, and lameness alone can also stem from foot rot or injury \u2014 a veterinarian should confirm the diagnosis."
+    },
+    {
+      "true": "foot-and-mouth",
+      "predicted": "foot-and-mouth",
+      "response": "1. Most likely disease name: Foot-and-Mouth Disease\n2. Confidence level: Medium\n3. Why these symptoms suggest this disease: The reported lameness or limping, blisters or sores on the mouth and feet are consistent with Foot-and-Mouth Disease, a highly contagious viral disease of cloven-hoofed animals.\n4. Recommended actions:\n1. Isolate this animal from the rest of your herd immediately\n2. Do NOT move the animal off your farm\n3. Contact the Ghana Veterinary Service or your nearest vet right away\n4. Disinfect all areas, tools, and equipment the animal has contacted\n5. Do not sell milk or meat from this animal until cleared by a vet\n6. Report the case \u2014 FMD is a notifiable disease under WOAH reporting standards\n5. Other possible diseases to rule out: Vesicular stomatitis and other blistering conditions can resemble FMD, and lameness alone can also stem from foot rot or injury \u2014 a veterinarian should confirm the diagnosis."
+    },
+    {
+      "true": "foot-and-mouth",
+      "predicted": "foot-and-mouth",
+      "response": "1. Most likely disease name: Foot-and-Mouth Disease\n2. Confidence level: Medium\n3. Why these symptoms suggest this disease: The reported blisters or sores on the mouth and feet, reluctance to move or stand are consistent with Foot-and-Mouth Disease. Foot-and-Mouth Disease (FMD) is a highly contagious viral disease of cloven-hoofed animals, spread through direct contact, contaminated equipment, and airborne transmission.\n4. Recommended actions:\n1. Isolate this animal from the rest of your herd immediately\n2. Do NOT move the animal off your farm\n3. Contact the Ghana Veterinary Service or your nearest vet right away\n4. Disinfect all areas, tools, and equipment the animal has contacted\n5. Do not sell milk or meat from this animal until cleared by a vet\n6. Report the case \u2014 FMD is a notifiable disease under WOAH reporting standards\n5. Other possible diseases to rule out: Vesicular stomatitis and other blistering conditions can resemble FMD, and lameness alone can also stem from foot rot or injury \u2014 a veterinarian should confirm the diagnosis."
+    },
+    {
+      "true": "lumpy",
+      "predicted": "lumpy",
+      "response": "1. Most likely disease name: Lumpy Skin Disease\n2. Confidence level: High\n3. Why these symptoms suggest this disease: The reported firm nodules or lumps on the skin, reduced milk production are consistent with Lumpy Skin Disease, a poxvirus infection spread by biting insects.\n4. Recommended actions:\n1. Isolate the affected animal from the rest of your herd immediately\n2. Vaccinate healthy cattle in your herd as prevention\n3. Contact your veterinarian for treatment and confirmation options\n4. Keep the animal in a shaded area away from biting insects\n5. Do not sell or move this animal off your farm\n6. Spray insecticide around the farm to reduce insect vectors\n5. Other possible diseases to rule out: Insect bite reactions, ringworm, and other skin conditions can look similar in early stages \u2014 a vet should confirm via examination."
+    },
+    {
+      "true": "lumpy",
+      "predicted": "lumpy",
+      "response": "1. Most likely disease name: Lumpy Skin Disease\n2. Confidence level: High\n3. Why these symptoms suggest this disease: The reported watery eyes or nasal discharge, reduced milk production are consistent with Lumpy Skin Disease, a poxvirus infection spread mainly by biting insects.\n4. Recommended actions:\n1. Isolate the affected animal from the rest of your herd immediately\n2. Vaccinate healthy cattle in your herd as prevention\n3. Contact your veterinarian for treatment and confirmation options\n4. Keep the animal in a shaded area away from biting insects\n5. Do not sell or move this animal off your farm\n6. Spray insecticide around the farm to reduce insect vectors\n5. Other possible diseases to rule out: Insect bite reactions, ringworm, and other skin conditions can look similar in early stages \u2014 a vet should confirm via examination."
+    },
+    {
+      "true": "lumpy",
+      "predicted": "lumpy",
+      "response": "1. Most likely disease name: Lumpy Skin Disease\n2. Confidence level: High\n3. Why these symptoms suggest this disease: The reported watery eyes or nasal discharge, high fever are consistent with Lumpy Skin Disease, a poxvirus infection spread mainly by biting insects.\n4. Recommended actions:\n1. Isolate the affected animal from the rest of your herd immediately\n2. Vaccinate healthy cattle in your herd as prevention\n3. Contact your veterinarian for treatment and confirmation options\n4. Keep the animal in a shaded area away from biting insects\n5. Do not sell or move this animal off your farm\n6. Spray insecticide around the farm to reduce insect vectors\n5. Other possible diseases to rule out: Insect bite reactions, ringworm, and other skin conditions can look similar in early stages \u2014 a vet should confirm via examination."
+    },
+    {
+      "true": "lumpy",
+      "predicted": "lumpy",
+      "response": "1. Most likely disease name: Lumpy Skin Disease\n2. Confidence level: High\n3. Why these symptoms suggest this disease: The reported swollen lymph nodes, watery eyes or nasal discharge, firm nodules or lumps on the skin, reduced milk production are consistent with Lumpy Skin Disease, a poxvirus infection spread mainly by biting insects.\n4. Recommended actions:\n1. Isolate the affected animal from the rest of your herd immediately\n2. Vaccinate healthy cattle in your herd as prevention\n3. Contact your veterinarian for treatment and confirmation options\n4. Keep the animal in a shaded area away from biting insects\n5. Do not sell or move this animal off your farm until cleared by a vet\n6. Spray insecticide around the farm to reduce insect vectors\n5. Other possible diseases to rule out: Insect bite reactions, ringworm, and other skin conditions can look similar in early stages \u2014 a vet should confirm via examination or lab test."
+    },
+    {
+      "true": "lumpy",
+      "predicted": "lumpy",
+      "response": "1. Most likely disease name: Lumpy Skin Disease\n2. Confidence level: High\n3. Why these symptoms suggest this disease: The reported weight loss, reduced milk production, swollen lymph nodes are consistent with Lumpy Skin Disease, a poxvirus infection spread by biting insects.\n4. Recommended actions:\n1. Isolate the affected animal from the rest of your herd immediately\n2. Vaccinate healthy cattle in your herd as prevention\n3. Contact your veterinarian for treatment and confirmation options\n4. Keep the animal in a shaded area away from biting insects\n5. Do not sell or move this animal off your farm until cleared by a vet\n6. Spray insecticide around the farm to reduce insect vectors\n5. Other possible diseases to rule out: Insect bite reactions, ringworm, and other skin conditions can look similar in early stages \u2014 a vet should confirm via examination."
+    },
+    {
+      "true": "healthy",
+      "predicted": "healthy",
+      "response": "1. Most likely disease name: Healthy\n2. Confidence level: High\n3. Why these symptoms suggest this disease: The reported normal breathing rate, clear bright eyes, normal appetite are consistent with Healthy. No signs of fever, reluctance to move, blisters or sores were mentioned.\n4. Recommended actions:\n1. Continue regular health monitoring of your herd\n2. Maintain good hygiene and sanitation on your farm\n3. Ensure the animal has access to clean water and balanced feed\n4. Keep vaccination schedules up to date\n5. Schedule regular veterinary checkups\n6. Monitor for any changes in behavior, appetite, or appearance\n5. Other possible diseases to rule out: It's always a good idea to consult your veterinarian for an official health assessment, and to keep records of vaccinations and medical treatments."
+    },
+    {
+      "true": "healthy",
+      "predicted": "healthy",
+      "response": "1. Most likely disease name: Healthy\n2. Confidence level: Medium\n3. Why these symptoms suggest this disease: The reported normal breathing rate, clear bright eyes, normal appetite, active and alert behavior are consistent with Healthy. None of the described signs match the typical presentation of common cattle diseases.\n4. Recommended actions:\n1. Continue regular health monitoring of your herd\n2. Maintain good hygiene and sanitation on your farm\n3. Ensure the animal has access to clean water and balanced feed\n4. Keep vaccination schedules up to date\n5. Schedule regular veterinary checkups\n6. Monitor for any changes in behavior, appetite, or appearance\n5. Other possible diseases to rule out: Subtle or early-stage disease can be hard to catch from a single observation \u2014 continue routine monitoring and consult your vet if you notice anything unusual."
+    },
+    {
+      "true": "healthy",
+      "predicted": "healthy",
+      "response": "1. Most likely disease name: Healthy\n2. Confidence level: Medium\n3. Why these symptoms suggest this disease: The reported active and alert behavior, normal appetite are consistent with Healthy. None of the described signs match the typical presentation of any notifiable or serious cattle disease.\n4. Recommended actions:\n1. Continue regular health monitoring of your herd\n2. Maintain good hygiene and sanitation on your farm\n3. Ensure the animal has access to clean water and balanced feed\n4. Keep vaccination schedules up to date\n5. Schedule regular veterinary checkups\n6. Monitor for any changes in behavior, appetite, or appearance\n5. Other possible diseases to rule out: It's always a good idea to consult your veterinarian for an official health assessment, especially if you notice any subtle changes in your animal."
+    },
+    {
+      "true": "healthy",
+      "predicted": "healthy",
+      "response": "1. Most likely disease name: Healthy\n2. Confidence level: High\n3. Why these symptoms suggest this disease: The reported normal breathing rate, normal appetite are consistent with Healthy. None of the described signs match the typical presentation of any notifiable or common cattle disease.\n4. Recommended actions:\n1. Continue regular health monitoring of your herd\n2. Maintain good hygiene and sanitation on your farm\n3. Ensure the animal has access to clean water and balanced feed\n4. Keep vaccination schedules up to date\n5. Schedule regular veterinary checkups\n6. Monitor for any changes in behavior, appetite, or appearance\n5. Other possible diseases to rule out: It's always a good practice to monitor for any subtle changes and consult your vet if you have concerns."
+    },
+    {
+      "true": "healthy",
+      "predicted": "healthy",
+      "response": "1. Most likely disease name: Healthy\n2. Confidence level: High\n3. Why these symptoms suggest this disease: The reported normal breathing rate, smooth clean skin, active and alert behavior are consistent with Healthy. None of the described signs match the typical presentation of any notifiable or common cattle disease.\n4. Recommended actions:\n1. Continue regular health monitoring of your herd\n2. Maintain good hygiene and sanitation on your farm\n3. Ensure the animal has access to clean water and balanced feed\n4. Keep vaccination schedules up to date\n5. Schedule regular veterinary checkups\n6. Monitor for any changes in behavior, appetite, or appearance\n5. Other possible diseases to rule out: It's always a good practice to maintain regular veterinary checkups and monitor for any subtle changes in your animal's health."
+    }
+  ],
+  "combined": [
+    {
+      "true": "foot-and-mouth",
+      "predicted": "foot-and-mouth",
+      "response": "1. Disease name: Foot-and-Mouth Disease\n2. Confidence level: Medium\n3. Evidence from image: visible vesicles (fluid-filled blisters) and erosions around the mouth, tongue, gums, and/or the coronary band of the feet.\n4. Evidence from symptoms described: The farmer reports loss of appetite, lameness or limping, reluctance to move or stand, which aligns with Foot-and-Mouth Disease.\n5. Recommended actions:\n1. Isolate this animal from the rest of your herd immediately\n2. Do NOT move the animal off your farm\n3. Contact the Ghana Veterinary Service or your nearest vet right away\n4. Disinfect all areas, tools, and equipment the animal has contacted\n5. Do not sell milk or meat from this animal until cleared by a vet"
+    },
+    {
+      "true": "foot-and-mouth",
+      "predicted": "foot-and-mouth",
+      "response": "1. Disease name: Foot-and-Mouth Disease\n2. Confidence level: Medium\n3. Evidence from image: visible vesicles (fluid-filled blisters) and erosions around the mouth, tongue, gums, and/or the coronary band of the feet.\n4. Evidence from symptoms described: The farmer reports blisters or sores on the mouth and feet, lameness or limping, excessive salivation, fever, which aligns with Foot-and-Mouth Disease.\n5. Recommended actions:\n1. Isolate this animal from the rest of your herd immediately\n2. Do NOT move the animal off your farm\n3. Contact the Ghana Veterinary Service or your nearest vet right away\n4. Disinfect all areas, tools, and equipment the animal has contacted\n5. Do not sell milk or meat from this animal until cleared by a vet"
+    },
+    {
+      "true": "foot-and-mouth",
+      "predicted": "foot-and-mouth",
+      "response": "1. Disease name: Foot-and-Mouth Disease\n2. Confidence level: Medium\n3. Evidence from image: visible vesicles (fluid-filled blisters) and erosions around the mouth, tongue, gums, and/or the coronary band of the feet.\n4. Evidence from symptoms described: The farmer reports reluctance to move or stand, fever, blisters or sores on the mouth and feet, which aligns with Foot-and-Mouth Disease.\n5. Recommended actions:\n1. Isolate this animal from the rest of your herd immediately\n2. Do NOT move the animal off your farm\n3. Contact the Ghana Veterinary Service or your nearest vet right away\n4. Disinfect all areas, tools, and equipment the animal has contacted\n5. Do not sell milk or meat from this animal until cleared by a vet"
+    },
+    {
+      "true": "foot-and-mouth",
+      "predicted": "foot-and-mouth",
+      "response": "1. Disease name: Foot-and-Mouth Disease\n2. Confidence level: Medium\n3. Evidence from image: visible vesicles (fluid-filled blisters) and erosions around the mouth, tongue, gums, and/or the coronary band of the feet.\n4. Evidence from symptoms described: The farmer reports lameness or limping, blisters or sores on the mouth and feet, which aligns with Foot-and-Mouth Disease.\n5. Recommended actions:\n1. Isolate this animal from the rest of your herd immediately\n2. Do NOT move the animal off your farm\n3. Contact the Ghana Veterinary Service or your nearest vet right away\n4. Disinfect all areas, tools, and equipment the animal has contacted\n5. Do not sell milk or meat from this animal until cleared by a vet"
+    },
+    {
+      "true": "foot-and-mouth",
+      "predicted": "foot-and-mouth",
+      "response": "1. Disease name: Foot-and-Mouth Disease\n2. Confidence level: Medium\n3. Evidence from image: visible vesicles (fluid-filled blisters) and erosions around the mouth, tongue, gums, and/or the coronary band of the feet.\n4. Evidence from symptoms described: The farmer reports blisters or sores on the mouth and feet, reluctance to move or stand, which aligns with Foot-and-Mouth Disease.\n5. Recommended actions:\n1. Isolate this animal from the rest of your herd immediately\n2. Do NOT move the animal off your farm\n3. Contact the Ghana Veterinary Service or your nearest vet right away\n4. Disinfect all areas, tools, and equipment the animal has contacted\n5. Do not sell milk or meat from this animal until cleared by a vet"
+    },
+    {
+      "true": "lumpy",
+      "predicted": "lumpy",
+      "response": "1. Disease name: Lumpy Skin Disease\n2. Confidence level: Medium\n3. Evidence from image: multiple firm, raised skin nodules, most often concentrated around the head, neck, and limbs, consistent with Lumpy Skin Disease lesions.\n4. Evidence from symptoms described: The farmer reports firm nodules or lumps on the skin, reduced milk production, which aligns with Lumpy Skin Disease.\n5. Recommended actions:\n1. Isolate the affected animal from the rest of your herd immediately\n2. Vaccinate healthy cattle in your herd as prevention\n3. Contact your veterinarian for treatment and confirmation options\n4. Keep the animal in a shaded area away from biting insects\n5. Do not sell or move this animal off your farm until cleared by a vet"
+    },
+    {
+      "true": "lumpy",
+      "predicted": "lumpy",
+      "response": "1. Disease name: Lumpy Skin Disease\n2. Confidence level: Medium\n3. Evidence from image: multiple firm, raised skin nodules, most often concentrated around the head, neck, and limbs, consistent with Lumpy Skin Disease lesions.\n4. Evidence from symptoms described: The farmer reports watery eyes or nasal discharge, reduced milk production, which aligns with Lumpy Skin Disease.\n5. Recommended actions:\n1. Isolate the affected animal from the rest of your herd immediately\n2. Vaccinate healthy cattle in your herd as prevention\n3. Contact your veterinarian for treatment and confirmation options\n4. Keep the animal in a shaded area away from biting insects\n5. Do not sell or move this animal off your farm until cleared by a vet"
+    },
+    {
+      "true": "lumpy",
+      "predicted": "lumpy",
+      "response": "1. Disease name: Lumpy Skin Disease\n2. Confidence level: High\n3. Evidence from image: multiple firm, raised skin nodules, most often concentrated around the head, neck, and limbs, consistent with Lumpy Skin Disease lesions.\n4. Evidence from symptoms described: The farmer reports watery eyes or nasal discharge, high fever, which aligns with Lumpy Skin Disease.\n5. Recommended actions:\n1. Isolate the affected animal from the rest of your herd immediately\n2. Vaccinate healthy cattle in your herd as prevention\n3. Contact your veterinarian for treatment and confirmation options\n4. Keep the animal in a shaded area away from biting insects\n5. Do not sell or move this animal off your farm until cleared by a vet"
+    },
+    {
+      "true": "lumpy",
+      "predicted": "lumpy",
+      "response": "1. Disease name: Lumpy Skin Disease\n2. Confidence level: High\n3. Evidence from image: multiple firm, raised skin nodules, most often concentrated around the head, neck, and limbs, consistent with Lumpy Skin Disease lesions.\n4. Evidence from symptoms described: The farmer reports swollen lymph nodes, watery eyes or nasal discharge, firm nodules or lumps on the skin, reduced milk production, which aligns with Lumpy Skin Disease.\n5. Recommended actions:\n1. Isolate the affected animal from the rest of your herd immediately\n2. Vaccinate healthy cattle in your herd as prevention\n3. Contact your veterinarian for treatment and confirmation options\n4. Keep the animal in a shaded area away from biting insects\n5. Do not sell or move this animal off your farm until cleared by a vet"
+    },
+    {
+      "true": "lumpy",
+      "predicted": "lumpy",
+      "response": "1. Disease name: Lumpy Skin Disease\n2. Confidence level: Medium\n3. Evidence from image: multiple firm, raised skin nodules, most often concentrated around the head, neck, and limbs, consistent with Lumpy Skin Disease lesions.\n4. Evidence from symptoms described: The farmer reports weight loss, reduced milk production, swollen lymph nodes, which aligns with Lumpy Skin Disease.\n5. Recommended actions:\n1. Isolate the affected animal from the rest of your herd immediately\n2. Vaccinate healthy cattle in your herd as prevention\n3. Contact your veterinarian for treatment and confirmation options\n4. Keep the animal in a shaded area away from biting insects\n5. Do not sell or move this animal off your farm until cleared by a vet"
+    },
+    {
+      "true": "healthy",
+      "predicted": "healthy",
+      "response": "1. Disease name: Healthy\n2. Confidence level: Medium\n3. Evidence from image: no visible blisters, nodules, or skin lesions; the coat, mouth, and feet appear normal.\n4. Evidence from symptoms described: The farmer reports normal breathing rate, clear bright eyes, normal appetite, which aligns with Healthy.\n5. Recommended actions:\n1. Continue regular health monitoring of your herd\n2. Maintain good hygiene and sanitation on your farm\n3. Ensure the animal has access to clean water and balanced feed\n4. Keep vaccination schedules up to date\n5. Schedule regular veterinary checkups"
+    },
+    {
+      "true": "healthy",
+      "predicted": "healthy",
+      "response": "1. Disease name: Healthy\n2. Confidence level: High\n3. Evidence from image: no visible blisters, nodules, or skin lesions; the coat, mouth, and feet appear normal.\n4. Evidence from symptoms described: The farmer reports normal breathing rate, clear bright eyes, normal appetite, active and alert behavior, which aligns with Healthy.\n5. Recommended actions:\n1. Continue regular health monitoring of your herd\n2. Maintain good hygiene and sanitation on your farm\n3. Ensure the animal has access to clean water and balanced feed\n4. Keep vaccination schedules up to date\n5. Schedule regular veterinary checkups"
+    },
+    {
+      "true": "healthy",
+      "predicted": "healthy",
+      "response": "1. Disease name: Healthy\n2. Confidence level: High\n3. Evidence from image: no visible blisters, nodules, or skin lesions; the coat, mouth, and feet appear normal.\n4. Evidence from symptoms described: The farmer reports active and alert behavior, normal appetite, which aligns with Healthy.\n5. Recommended actions:\n1. Continue regular health monitoring of your herd\n2. Maintain good hygiene and sanitation on your farm\n3. Ensure the animal has access to clean water and balanced feed\n4. Keep vaccination schedules up to date\n5. Schedule regular veterinary checkups"
+    },
+    {
+      "true": "healthy",
+      "predicted": "healthy",
+      "response": "1. Disease name: Healthy\n2. Confidence level: High\n3. Evidence from image: no visible blisters, nodules, or skin lesions; the coat, mouth, and feet appear normal.\n4. Evidence from symptoms described: The farmer reports normal breathing rate, normal appetite, which aligns with Healthy.\n5. Recommended actions:\n1. Continue regular health monitoring of your herd\n2. Maintain good hygiene and sanitation on your farm\n3. Ensure the animal has access to clean water and balanced feed\n4. Keep vaccination schedules up to date\n5. Schedule regular veterinary checkups"
+    },
+    {
+      "true": "healthy",
+      "predicted": "healthy",
+      "response": "1. Disease name: Healthy\n2. Confidence level: Medium\n3. Evidence from image: no visible blisters, nodules, or skin lesions; the coat, mouth, and feet appear normal.\n4. Evidence from symptoms described: The farmer reports normal breathing rate, smooth clean skin, active and alert behavior, which aligns with Healthy.\n5. Recommended actions:\n1. Continue regular health monitoring of your herd\n2. Maintain good hygiene and sanitation on your farm\n3. Ensure the animal has access to clean water and balanced feed\n4. Keep vaccination schedules up to date\n5. Schedule regular veterinary checkups"
+    }
+  ]
+}

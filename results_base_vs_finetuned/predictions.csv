@@ -1,0 +1,271 @@
+mode,true,idx,image,symptoms,base_pred,finetuned_pred,base_correct,finetuned_correct
+image_only,foot-and-mouth,0,mouth_1_dayWM.jpg,,foot-and-mouth,foot-and-mouth,1,1
+image_only,foot-and-mouth,1,moazx-40-_jpg.rf.31653e5b3eb9379f4d8e8a60f6fb6356.jpg,,foot-and-mouth,foot-and-mouth,1,1
+image_only,foot-and-mouth,2,moazx-129-_jpg.rf.a88d3e1dfdc232cd255b5e1efbd6cb0f.jpg,,foot-and-mouth,foot-and-mouth,1,1
+image_only,foot-and-mouth,3,FMD-Knuckles-_144-Copy_jpeg.rf.8731ac1b8203c1084e09c96c25724cce.jpg,,foot-and-mouth,foot-and-mouth,1,1
+image_only,foot-and-mouth,4,mosap-85-_jpg.rf.f2cc00a67712e759f6dfa2d8021874fe.jpg,,unclear,foot-and-mouth,0,1
+image_only,foot-and-mouth,5,FMD__7_jpg.rf.bd48940435684bcc8d2538dd40fe901e.jpg,,foot-and-mouth,foot-and-mouth,1,1
+image_only,foot-and-mouth,6,moazx-158-_jpg.rf.d243ec147ed43977b3b8fcf958ccdf5a.jpg,,unclear,foot-and-mouth,0,1
+image_only,foot-and-mouth,7,footlesionWM-1.jpg,,unclear,foot-and-mouth,0,1
+image_only,foot-and-mouth,8,-21-_jpg.rf.28e352003d28ea0a2576d99ac5f135da.jpg,,foot-and-mouth,foot-and-mouth,1,1
+image_only,foot-and-mouth,9,-42-_jpg.rf.f52d62ec94cf7cfa1df1c0aeef0f57f3.jpg,,foot-and-mouth,foot-and-mouth,1,1
+image_only,foot-and-mouth,10,-64-_jpg.rf.267bc0abaa1e518d95df93304231b153.jpg,,foot-and-mouth,foot-and-mouth,1,1
+image_only,foot-and-mouth,11,FMD_2_jpg.rf.1d860e79662ad42a3bfa598085b55749.jpg,,foot-and-mouth,foot-and-mouth,1,1
+image_only,foot-and-mouth,12,FMD_23_jpg.rf.5e1d53e50ed8e7552f4edf26c2f9698a - Copy.jpg,,foot-and-mouth,foot-and-mouth,1,1
+image_only,foot-and-mouth,13,Capture1_png.rf.70fbf14ae8ff044f5fada8ec078ed6df.jpg,,foot-and-mouth,foot-and-mouth,1,1
+image_only,foot-and-mouth,14,5198047453_ab0d6212d0_bWM-1.jpg,,foot-and-mouth,foot-and-mouth,1,1
+image_only,foot-and-mouth,15,FMD_010_jpg.rf.04bb23b1931708a8fb0183ffb7364671.jpg,,foot-and-mouth,foot-and-mouth,1,1
+image_only,foot-and-mouth,16,mosap-129-_jpg.rf.f006e709edc0e128309ac52b9b6d2d7a.jpg,,unclear,foot-and-mouth,0,1
+image_only,foot-and-mouth,17,mosap-109-_jpg.rf.345c72ad13c4ade98f7a2eff78ebf016.jpg,,foot-and-mouth,foot-and-mouth,1,1
+image_only,foot-and-mouth,18,moazx-316-_jpg.rf.03744004979fe1645b7f38bab64fc783.jpg,,foot-and-mouth,foot-and-mouth,1,1
+image_only,foot-and-mouth,19,moazx-317-_jpg.rf.463921b28cd4a1084b580df315dd9a04.jpg,,foot-and-mouth,foot-and-mouth,1,1
+image_only,foot-and-mouth,20,mouth_2-3_days_2JMOKWM.jpg,,foot-and-mouth,foot-and-mouth,1,1
+image_only,foot-and-mouth,21,mosap-439-_jpg.rf.2c00538c824d2a9e83f245b092a9ef08.jpg,,healthy,foot-and-mouth,0,1
+image_only,foot-and-mouth,22,moazx-139-_jpg.rf.c40b1b7390469fc0590a9c5a70aa8555.jpg,,foot-and-mouth,foot-and-mouth,1,1
+image_only,foot-and-mouth,23,FMD__3_jpg.rf.164b9ac14d8ca29ec6094577f36ad0f8.jpg,,foot-and-mouth,foot-and-mouth,1,1
+image_only,foot-and-mouth,24,FMD_2_jpg.rf.7b486690ed3ce87354fee20d59048623.jpg,,foot-and-mouth,foot-and-mouth,1,1
+image_only,foot-and-mouth,25,Diseased-foot-8_jpg.rf.5dd0210298ef0dbf2e4e99cc0ee96cbb.jpg,,unclear,foot-and-mouth,0,1
+image_only,foot-and-mouth,26,FMD-Knuckles-_54-Copy_jpeg.rf.99ae59840ac60a16331a3077ed782973.jpg,,foot-and-mouth,foot-and-mouth,1,1
+image_only,foot-and-mouth,27,fmd-01_0_jpg.rf.9903d29cf80d0aa43ffa6117602e7660.jpg,,foot-and-mouth,foot-and-mouth,1,1
+image_only,foot-and-mouth,28,moazx-126-_jpg.rf.c2a24befd769268bdec07ed6ea2db5ab.jpg,,foot-and-mouth,foot-and-mouth,1,1
+image_only,foot-and-mouth,29,foot-and-mougth-26-_jpg.rf.01ef0f1584fe4557e7b0beaa5930b870.jpg,,unclear,foot-and-mouth,0,1
+image_only,lumpy,0,img1245.jpg,,unclear,lumpy,0,1
+image_only,lumpy,1,img2285_jpg.rf.82ed4b0b84ab9aeb8959867af324c6f3.jpg,,foot-and-mouth,lumpy,0,1
+image_only,lumpy,2,Lumpy_Skin_260_png.rf.16982e7b634f334361bedaf6d80a4e8c.jpg,,foot-and-mouth,lumpy,0,1
+image_only,lumpy,3,Lumpy_Skin_254.png,,unclear,lumpy,0,1
+image_only,lumpy,4,17_jpg_jpeg_jpg.rf.7f2e9cc483c2e49098c2ec8af33a80bc.jpg,,unclear,lumpy,0,1
+image_only,lumpy,5,Lumpy_Skin_90.png,,foot-and-mouth,lumpy,0,1
+image_only,lumpy,6,img1953_jpg.rf.2e0048dc6142d72e0095ff0bb1b311d9.jpg,,unclear,lumpy,0,1
+image_only,lumpy,7,img1627_jpg.rf.23b1338b6a0ef1bab1d4fc347789a58b.jpg,,unclear,lumpy,0,1
+image_only,lumpy,8,LS-10_jpg.rf.3e3f01274bfd56e56aa23da3b49f1507.jpg,,unclear,lumpy,0,1
+image_only,lumpy,9,Lumpy_Skin_9_png.rf.c470d7df7b41fedf498165d1ad091e2d.jpg,,foot-and-mouth,lumpy,0,1
+image_only,lumpy,10,img1068.jpg,,foot-and-mouth,lumpy,0,1
+image_only,lumpy,11,img1129.jpg,,foot-and-mouth,lumpy,0,1
+image_only,lumpy,12,IMG_20220830_075854_jpg.rf.34007dd888b4884a0738b790b5fee9de.jpg,,unclear,lumpy,0,1
+image_only,lumpy,13,10_jpg.rf.e3ffb69d621d07c9d144b189c5e2323b.jpg,,foot-and-mouth,lumpy,0,1
+image_only,lumpy,14,LSD-154-_png_jpg.rf.7daf7c980f71a884a2427c33bd77197c.jpg,,foot-and-mouth,lumpy,0,1
+image_only,lumpy,15,Lumpy_Skin_53.png,,foot-and-mouth,lumpy,0,1
+image_only,lumpy,16,IMG_20220906_172416_jpg.rf.7db1a2bc520b238b43464ee7c5373e86.jpg,,foot-and-mouth,healthy,0,0
+image_only,lumpy,17,img1287.jpg,,lumpy,lumpy,1,1
+image_only,lumpy,18,Lumpy_Skin_174.png,,healthy,lumpy,0,1
+image_only,lumpy,19,IMG-20220830-WA0127_jpg.rf.f1bcd4a9bc42feeb7a735ae2a440ea04.jpg,,foot-and-mouth,lumpy,0,1
+image_only,lumpy,20,Lumpy_Skin_173.png,,foot-and-mouth,lumpy,0,1
+image_only,lumpy,21,LSD-173-_png_jpg.rf.40773a4e94815b5a4ad917a23fafb4ea.jpg,,foot-and-mouth,lumpy,0,1
+image_only,lumpy,22,27_jpg_jpeg_jpg.rf.cae38b133e74dd74abc04417396388b8.jpg,,foot-and-mouth,lumpy,0,1
+image_only,lumpy,23,IMG_20220829_124417_jpg.rf.1234442662c169b5915e8368b318497d.jpg,,foot-and-mouth,lumpy,0,1
+image_only,lumpy,24,IMG_20220830_075803_jpg.rf.d557e670ce03693ddcff955a495341df.jpg,,foot-and-mouth,lumpy,0,1
+image_only,lumpy,25,Lumpy_Skin_243.png,,foot-and-mouth,lumpy,0,1
+image_only,lumpy,26,IMG_20220830_104851_jpg.rf.860ea9aa63c3f2c03616f38bce0d14be.jpg,,foot-and-mouth,lumpy,0,1
+image_only,lumpy,27,img1290(1).jpg,,unclear,lumpy,0,1
+image_only,lumpy,28,Lumpy_Skin_189_png.rf.39bd38be1aa7dde81f23c78cde0fe5a7.jpg,,foot-and-mouth,lumpy,0,1
+image_only,lumpy,29,img1372.jpg,,lumpy,lumpy,1,1
+image_only,healthy,0,imgs364.jpg,,unclear,healthy,0,1
+image_only,healthy,1,imgs040.jpg,,foot-and-mouth,healthy,0,1
+image_only,healthy,2,Ayrshirecattle20.jpg,,unclear,healthy,0,1
+image_only,healthy,3,Normal_Skin_628.png,,unclear,healthy,0,1
+image_only,healthy,4,imgs058.jpg,,unclear,healthy,0,1
+image_only,healthy,5,imgs113.jpg,,unclear,healthy,0,1
+image_only,healthy,6,Normal_Skin_691.png,,unclear,healthy,0,1
+image_only,healthy,7,RedDanecattle111.jpg,,unclear,healthy,0,1
+image_only,healthy,8,imgs287.jpg,,unclear,healthy,0,1
+image_only,healthy,9,HolsteinFriesiancattle83.jpg,,unclear,healthy,0,1
+image_only,healthy,10,Normal_Skin_224.png,,unclear,healthy,0,1
+image_only,healthy,11,Ayrshirecattle44.jpg,,unclear,healthy,0,1
+image_only,healthy,12,Normal_Skin_569-resized.jpg,,unclear,healthy,0,1
+image_only,healthy,13,imgs112.jpg,,unclear,healthy,0,1
+image_only,healthy,14,Normal_Skin_118.png,,unclear,healthy,0,1
+image_only,healthy,15,Normal_Skin_346.png,,foot-and-mouth,healthy,0,1
+image_only,healthy,16,image_UHJvZHVjdDoxOQ-_b46b6772_jpeg_jpg.rf.d53e9ff865bc65b6283ea16347ef3278.jpg,,foot-and-mouth,healthy,0,1
+image_only,healthy,17,imgs135.jpg,,healthy,healthy,1,1
+image_only,healthy,18,BrownSwisscattle87.jpg,,unclear,healthy,0,1
+image_only,healthy,19,imgs504.jpg,,foot-and-mouth,healthy,0,1
+image_only,healthy,20,Non-diseased-muzzle-8-with-tongue_jpg.rf.7faa2961f253d8622b31bf0ef09fab03.jpg,,foot-and-mouth,healthy,0,1
+image_only,healthy,21,imgs416.jpg,,foot-and-mouth,healthy,0,1
+image_only,healthy,22,imgs462.jpg,,foot-and-mouth,lumpy,0,0
+image_only,healthy,23,sapi_f_7.jpg,,foot-and-mouth,foot-and-mouth,0,0
+image_only,healthy,24,HolsteinFriesiancattle24.jpg,,healthy,healthy,1,1
+image_only,healthy,25,imgs011.jpg,,healthy,healthy,1,1
+image_only,healthy,26,sapi_z_11.jpg,,foot-and-mouth,foot-and-mouth,0,0
+image_only,healthy,27,imgs229.jpg,,unclear,healthy,0,1
+image_only,healthy,28,Normal_Skin_99.png,,healthy,healthy,1,1
+image_only,healthy,29,Normal_Skin_47.png,,unclear,healthy,0,1
+symptoms_only,foot-and-mouth,0,,"loss of appetite, lameness or limping, reluctance to move or stand",foot-and-mouth,foot-and-mouth,1,1
+symptoms_only,foot-and-mouth,1,,"blisters or sores on the mouth and feet, lameness or limping, excessive salivation, fever",foot-and-mouth,foot-and-mouth,1,1
+symptoms_only,foot-and-mouth,2,,"reluctance to move or stand, fever, blisters or sores on the mouth and feet",foot-and-mouth,foot-and-mouth,1,1
+symptoms_only,foot-and-mouth,3,,"lameness or limping, blisters or sores on the mouth and feet",foot-and-mouth,foot-and-mouth,1,1
+symptoms_only,foot-and-mouth,4,,"blisters or sores on the mouth and feet, reluctance to move or stand",foot-and-mouth,foot-and-mouth,1,1
+symptoms_only,foot-and-mouth,5,,"fever, lameness or limping",foot-and-mouth,foot-and-mouth,1,1
+symptoms_only,foot-and-mouth,6,,"reluctance to move or stand, lameness or limping",unclear,foot-and-mouth,0,1
+symptoms_only,foot-and-mouth,7,,"reluctance to move or stand, blisters or sores on the mouth and feet",foot-and-mouth,foot-and-mouth,1,1
+symptoms_only,foot-and-mouth,8,,"excessive salivation, reluctance to move or stand, fever, lameness or limping",foot-and-mouth,foot-and-mouth,1,1
+symptoms_only,foot-and-mouth,9,,"loss of appetite, lameness or limping, excessive salivation",foot-and-mouth,foot-and-mouth,1,1
+symptoms_only,foot-and-mouth,10,,"loss of appetite, lameness or limping, fever",foot-and-mouth,foot-and-mouth,1,1
+symptoms_only,foot-and-mouth,11,,"loss of appetite, reluctance to move or stand, lameness or limping, fever",foot-and-mouth,foot-and-mouth,1,1
+symptoms_only,foot-and-mouth,12,,"blisters or sores on the mouth and feet, reluctance to move or stand, fever",foot-and-mouth,foot-and-mouth,1,1
+symptoms_only,foot-and-mouth,13,,"loss of appetite, fever",foot-and-mouth,foot-and-mouth,1,1
+symptoms_only,foot-and-mouth,14,,"loss of appetite, excessive salivation, lameness or limping",foot-and-mouth,foot-and-mouth,1,1
+symptoms_only,foot-and-mouth,15,,"lameness or limping, reluctance to move or stand, loss of appetite",foot-and-mouth,foot-and-mouth,1,1
+symptoms_only,foot-and-mouth,16,,"blisters or sores on the mouth and feet, excessive salivation",foot-and-mouth,foot-and-mouth,1,1
+symptoms_only,foot-and-mouth,17,,"blisters or sores on the mouth and feet, loss of appetite, lameness or limping",foot-and-mouth,foot-and-mouth,1,1
+symptoms_only,foot-and-mouth,18,,"lameness or limping, excessive salivation",foot-and-mouth,foot-and-mouth,1,1
+symptoms_only,foot-and-mouth,19,,"blisters or sores on the mouth and feet, fever, lameness or limping, reluctance to move or stand",foot-and-mouth,foot-and-mouth,1,1
+symptoms_only,foot-and-mouth,20,,"fever, excessive salivation, loss of appetite",foot-and-mouth,foot-and-mouth,1,1
+symptoms_only,foot-and-mouth,21,,"excessive salivation, lameness or limping, fever",foot-and-mouth,foot-and-mouth,1,1
+symptoms_only,foot-and-mouth,22,,"blisters or sores on the mouth and feet, excessive salivation",foot-and-mouth,foot-and-mouth,1,1
+symptoms_only,foot-and-mouth,23,,"lameness or limping, excessive salivation, loss of appetite, reluctance to move or stand",foot-and-mouth,foot-and-mouth,1,1
+symptoms_only,foot-and-mouth,24,,"loss of appetite, fever, blisters or sores on the mouth and feet",foot-and-mouth,foot-and-mouth,1,1
+symptoms_only,foot-and-mouth,25,,"blisters or sores on the mouth and feet, lameness or limping, loss of appetite",foot-and-mouth,foot-and-mouth,1,1
+symptoms_only,foot-and-mouth,26,,"excessive salivation, fever, blisters or sores on the mouth and feet, loss of appetite",foot-and-mouth,foot-and-mouth,1,1
+symptoms_only,foot-and-mouth,27,,"reluctance to move or stand, loss of appetite, lameness or limping",foot-and-mouth,foot-and-mouth,1,1
+symptoms_only,foot-and-mouth,28,,"loss of appetite, reluctance to move or stand",unclear,foot-and-mouth,0,1
+symptoms_only,foot-and-mouth,29,,"blisters or sores on the mouth and feet, reluctance to move or stand",foot-and-mouth,foot-and-mouth,1,1
+symptoms_only,lumpy,0,,"firm nodules or lumps on the skin, high fever",unclear,lumpy,0,1
+symptoms_only,lumpy,1,,"reduced milk production, firm nodules or lumps on the skin",unclear,lumpy,0,1
+symptoms_only,lumpy,2,,"watery eyes or nasal discharge, high fever, swollen lymph nodes",foot-and-mouth,lumpy,0,1
+symptoms_only,lumpy,3,,"reduced milk production, weight loss, watery eyes or nasal discharge",foot-and-mouth,lumpy,0,1
+symptoms_only,lumpy,4,,"firm nodules or lumps on the skin, watery eyes or nasal discharge, high fever, reduced milk production",foot-and-mouth,lumpy,0,1
+symptoms_only,lumpy,5,,"weight loss, reduced milk production, high fever",foot-and-mouth,lumpy,0,1
+symptoms_only,lumpy,6,,"weight loss, watery eyes or nasal discharge, swollen lymph nodes",foot-and-mouth,lumpy,0,1
+symptoms_only,lumpy,7,,"high fever, swollen lymph nodes, firm nodules or lumps on the skin",foot-and-mouth,lumpy,0,1
+symptoms_only,lumpy,8,,"firm nodules or lumps on the skin, reduced milk production, watery eyes or nasal discharge",foot-and-mouth,lumpy,0,1
+symptoms_only,lumpy,9,,"weight loss, high fever",foot-and-mouth,lumpy,0,1
+symptoms_only,lumpy,10,,"watery eyes or nasal discharge, high fever",foot-and-mouth,lumpy,0,1
+symptoms_only,lumpy,11,,"high fever, swollen lymph nodes, reduced milk production, weight loss",foot-and-mouth,lumpy,0,1
+symptoms_only,lumpy,12,,"watery eyes or nasal discharge, firm nodules or lumps on the skin",foot-and-mouth,lumpy,0,1
+symptoms_only,lumpy,13,,"high fever, watery eyes or nasal discharge, firm nodules or lumps on the skin",foot-and-mouth,lumpy,0,1
+symptoms_only,lumpy,14,,"swollen lymph nodes, weight loss",foot-and-mouth,lumpy,0,1
+symptoms_only,lumpy,15,,"watery eyes or nasal discharge, swollen lymph nodes, reduced milk production",foot-and-mouth,lumpy,0,1
+symptoms_only,lumpy,16,,"swollen lymph nodes, reduced milk production, watery eyes or nasal discharge",foot-and-mouth,lumpy,0,1
+symptoms_only,lumpy,17,,"reduced milk production, swollen lymph nodes",unclear,lumpy,0,1
+symptoms_only,lumpy,18,,"weight loss, watery eyes or nasal discharge, reduced milk production, swollen lymph nodes",foot-and-mouth,lumpy,0,1
+symptoms_only,lumpy,19,,"firm nodules or lumps on the skin, weight loss",unclear,lumpy,0,1
+symptoms_only,lumpy,20,,"swollen lymph nodes, weight loss, watery eyes or nasal discharge, high fever",foot-and-mouth,lumpy,0,1
+symptoms_only,lumpy,21,,"firm nodules or lumps on the skin, reduced milk production, watery eyes or nasal discharge, high fever",foot-and-mouth,lumpy,0,1
+symptoms_only,lumpy,22,,"watery eyes or nasal discharge, swollen lymph nodes, weight loss",foot-and-mouth,lumpy,0,1
+symptoms_only,lumpy,23,,"watery eyes or nasal discharge, swollen lymph nodes, high fever",foot-and-mouth,lumpy,0,1
+symptoms_only,lumpy,24,,"weight loss, high fever",foot-and-mouth,lumpy,0,1
+symptoms_only,lumpy,25,,"weight loss, reduced milk production",unclear,lumpy,0,1
+symptoms_only,lumpy,26,,"swollen lymph nodes, high fever, firm nodules or lumps on the skin, watery eyes or nasal discharge",foot-and-mouth,lumpy,0,1
+symptoms_only,lumpy,27,,"swollen lymph nodes, watery eyes or nasal discharge, reduced milk production",foot-and-mouth,lumpy,0,1
+symptoms_only,lumpy,28,,"reduced milk production, firm nodules or lumps on the skin, high fever",unclear,lumpy,0,1
+symptoms_only,lumpy,29,,"watery eyes or nasal discharge, high fever, reduced milk production",foot-and-mouth,lumpy,0,1
+symptoms_only,healthy,0,,"smooth clean skin, normal breathing rate, normal appetite, clear bright eyes",unclear,healthy,0,1
+symptoms_only,healthy,1,,"normal appetite, clear bright eyes, normal breathing rate",unclear,healthy,0,1
+symptoms_only,healthy,2,,"smooth clean skin, active and alert behavior, normal breathing rate, clear bright eyes",healthy,healthy,1,1
+symptoms_only,healthy,3,,"normal appetite, active and alert behavior, clear bright eyes, normal breathing rate",healthy,healthy,1,1
+symptoms_only,healthy,4,,"smooth clean skin, clear bright eyes, active and alert behavior, normal breathing rate",unclear,healthy,0,1
+symptoms_only,healthy,5,,"normal breathing rate, smooth clean skin, active and alert behavior",unclear,healthy,0,1
+symptoms_only,healthy,6,,"clear bright eyes, normal appetite",unclear,healthy,0,1
+symptoms_only,healthy,7,,"normal breathing rate, normal appetite, active and alert behavior, clear bright eyes",healthy,healthy,1,1
+symptoms_only,healthy,8,,"normal appetite, clear bright eyes, smooth clean skin, active and alert behavior",healthy,healthy,1,1
+symptoms_only,healthy,9,,"normal appetite, active and alert behavior, normal breathing rate",unclear,healthy,0,1
+symptoms_only,healthy,10,,"smooth clean skin, clear bright eyes",unclear,healthy,0,1
+symptoms_only,healthy,11,,"clear bright eyes, active and alert behavior, normal breathing rate, normal appetite",unclear,healthy,0,1
+symptoms_only,healthy,12,,"clear bright eyes, smooth clean skin",unclear,healthy,0,1
+symptoms_only,healthy,13,,"active and alert behavior, smooth clean skin, clear bright eyes, normal appetite",healthy,healthy,1,1
+symptoms_only,healthy,14,,"clear bright eyes, smooth clean skin",unclear,healthy,0,1
+symptoms_only,healthy,15,,"active and alert behavior, normal breathing rate",unclear,healthy,0,1
+symptoms_only,healthy,16,,"normal appetite, active and alert behavior, smooth clean skin",unclear,healthy,0,1
+symptoms_only,healthy,17,,"clear bright eyes, normal breathing rate, active and alert behavior",unclear,healthy,0,1
+symptoms_only,healthy,18,,"clear bright eyes, normal appetite, normal breathing rate",unclear,healthy,0,1
+symptoms_only,healthy,19,,"active and alert behavior, smooth clean skin, normal appetite, normal breathing rate",healthy,healthy,1,1
+symptoms_only,healthy,20,,"active and alert behavior, normal appetite, smooth clean skin, clear bright eyes",healthy,healthy,1,1
+symptoms_only,healthy,21,,"active and alert behavior, normal breathing rate, smooth clean skin, clear bright eyes",healthy,healthy,1,1
+symptoms_only,healthy,22,,"active and alert behavior, normal appetite, normal breathing rate",unclear,healthy,0,1
+symptoms_only,healthy,23,,"normal breathing rate, smooth clean skin, normal appetite, clear bright eyes",healthy,healthy,1,1
+symptoms_only,healthy,24,,"smooth clean skin, normal breathing rate",unclear,healthy,0,1
+symptoms_only,healthy,25,,"normal breathing rate, smooth clean skin, active and alert behavior",unclear,healthy,0,1
+symptoms_only,healthy,26,,"active and alert behavior, smooth clean skin, normal breathing rate, clear bright eyes",healthy,healthy,1,1
+symptoms_only,healthy,27,,"active and alert behavior, clear bright eyes",unclear,healthy,0,1
+symptoms_only,healthy,28,,"active and alert behavior, normal breathing rate",unclear,healthy,0,1
+symptoms_only,healthy,29,,"active and alert behavior, normal breathing rate, smooth clean skin, normal appetite",healthy,healthy,1,1
+combined,foot-and-mouth,0,mouth_1_dayWM.jpg,"loss of appetite, lameness or limping, reluctance to move or stand",foot-and-mouth,foot-and-mouth,1,1
+combined,foot-and-mouth,1,moazx-40-_jpg.rf.31653e5b3eb9379f4d8e8a60f6fb6356.jpg,"blisters or sores on the mouth and feet, lameness or limping, excessive salivation, fever",foot-and-mouth,foot-and-mouth,1,1
+combined,foot-and-mouth,2,moazx-129-_jpg.rf.a88d3e1dfdc232cd255b5e1efbd6cb0f.jpg,"reluctance to move or stand, fever, blisters or sores on the mouth and feet",foot-and-mouth,foot-and-mouth,1,1
+combined,foot-and-mouth,3,FMD-Knuckles-_144-Copy_jpeg.rf.8731ac1b8203c1084e09c96c25724cce.jpg,"lameness or limping, blisters or sores on the mouth and feet",foot-and-mouth,foot-and-mouth,1,1
+combined,foot-and-mouth,4,mosap-85-_jpg.rf.f2cc00a67712e759f6dfa2d8021874fe.jpg,"blisters or sores on the mouth and feet, reluctance to move or stand",foot-and-mouth,foot-and-mouth,1,1
+combined,foot-and-mouth,5,FMD__7_jpg.rf.bd48940435684bcc8d2538dd40fe901e.jpg,"fever, lameness or limping",foot-and-mouth,foot-and-mouth,1,1
+combined,foot-and-mouth,6,moazx-158-_jpg.rf.d243ec147ed43977b3b8fcf958ccdf5a.jpg,"reluctance to move or stand, lameness or limping",unclear,foot-and-mouth,0,1
+combined,foot-and-mouth,7,footlesionWM-1.jpg,"reluctance to move or stand, blisters or sores on the mouth and feet",foot-and-mouth,foot-and-mouth,1,1
+combined,foot-and-mouth,8,-21-_jpg.rf.28e352003d28ea0a2576d99ac5f135da.jpg,"excessive salivation, reluctance to move or stand, fever, lameness or limping",foot-and-mouth,foot-and-mouth,1,1
+combined,foot-and-mouth,9,-42-_jpg.rf.f52d62ec94cf7cfa1df1c0aeef0f57f3.jpg,"loss of appetite, lameness or limping, excessive salivation",foot-and-mouth,foot-and-mouth,1,1
+combined,foot-and-mouth,10,-64-_jpg.rf.267bc0abaa1e518d95df93304231b153.jpg,"loss of appetite, lameness or limping, fever",foot-and-mouth,foot-and-mouth,1,1
+combined,foot-and-mouth,11,FMD_2_jpg.rf.1d860e79662ad42a3bfa598085b55749.jpg,"loss of appetite, reluctance to move or stand, lameness or limping, fever",foot-and-mouth,foot-and-mouth,1,1
+combined,foot-and-mouth,12,FMD_23_jpg.rf.5e1d53e50ed8e7552f4edf26c2f9698a - Copy.jpg,"blisters or sores on the mouth and feet, reluctance to move or stand, fever",foot-and-mouth,foot-and-mouth,1,1
+combined,foot-and-mouth,13,Capture1_png.rf.70fbf14ae8ff044f5fada8ec078ed6df.jpg,"loss of appetite, fever",foot-and-mouth,foot-and-mouth,1,1
+combined,foot-and-mouth,14,5198047453_ab0d6212d0_bWM-1.jpg,"loss of appetite, excessive salivation, lameness or limping",foot-and-mouth,foot-and-mouth,1,1
+combined,foot-and-mouth,15,FMD_010_jpg.rf.04bb23b1931708a8fb0183ffb7364671.jpg,"lameness or limping, reluctance to move or stand, loss of appetite",foot-and-mouth,foot-and-mouth,1,1
+combined,foot-and-mouth,16,mosap-129-_jpg.rf.f006e709edc0e128309ac52b9b6d2d7a.jpg,"blisters or sores on the mouth and feet, excessive salivation",foot-and-mouth,foot-and-mouth,1,1
+combined,foot-and-mouth,17,mosap-109-_jpg.rf.345c72ad13c4ade98f7a2eff78ebf016.jpg,"blisters or sores on the mouth and feet, loss of appetite, lameness or limping",foot-and-mouth,foot-and-mouth,1,1
+combined,foot-and-mouth,18,moazx-316-_jpg.rf.03744004979fe1645b7f38bab64fc783.jpg,"lameness or limping, excessive salivation",foot-and-mouth,foot-and-mouth,1,1
+combined,foot-and-mouth,19,moazx-317-_jpg.rf.463921b28cd4a1084b580df315dd9a04.jpg,"blisters or sores on the mouth and feet, fever, lameness or limping, reluctance to move or stand",foot-and-mouth,foot-and-mouth,1,1
+combined,foot-and-mouth,20,mouth_2-3_days_2JMOKWM.jpg,"fever, excessive salivation, loss of appetite",foot-and-mouth,foot-and-mouth,1,1
+combined,foot-and-mouth,21,mosap-439-_jpg.rf.2c00538c824d2a9e83f245b092a9ef08.jpg,"excessive salivation, lameness or limping, fever",foot-and-mouth,foot-and-mouth,1,1
+combined,foot-and-mouth,22,moazx-139-_jpg.rf.c40b1b7390469fc0590a9c5a70aa8555.jpg,"blisters or sores on the mouth and feet, excessive salivation",foot-and-mouth,foot-and-mouth,1,1
+combined,foot-and-mouth,23,FMD__3_jpg.rf.164b9ac14d8ca29ec6094577f36ad0f8.jpg,"lameness or limping, excessive salivation, loss of appetite, reluctance to move or stand",foot-and-mouth,foot-and-mouth,1,1
+combined,foot-and-mouth,24,FMD_2_jpg.rf.7b486690ed3ce87354fee20d59048623.jpg,"loss of appetite, fever, blisters or sores on the mouth and feet",foot-and-mouth,foot-and-mouth,1,1
+combined,foot-and-mouth,25,Diseased-foot-8_jpg.rf.5dd0210298ef0dbf2e4e99cc0ee96cbb.jpg,"blisters or sores on the mouth and feet, lameness or limping, loss of appetite",foot-and-mouth,foot-and-mouth,1,1
+combined,foot-and-mouth,26,FMD-Knuckles-_54-Copy_jpeg.rf.99ae59840ac60a16331a3077ed782973.jpg,"excessive salivation, fever, blisters or sores on the mouth and feet, loss of appetite",foot-and-mouth,foot-and-mouth,1,1
+combined,foot-and-mouth,27,fmd-01_0_jpg.rf.9903d29cf80d0aa43ffa6117602e7660.jpg,"reluctance to move or stand, loss of appetite, lameness or limping",foot-and-mouth,foot-and-mouth,1,1
+combined,foot-and-mouth,28,moazx-126-_jpg.rf.c2a24befd769268bdec07ed6ea2db5ab.jpg,"loss of appetite, reluctance to move or stand",foot-and-mouth,foot-and-mouth,1,1
+combined,foot-and-mouth,29,foot-and-mougth-26-_jpg.rf.01ef0f1584fe4557e7b0beaa5930b870.jpg,"blisters or sores on the mouth and feet, reluctance to move or stand",foot-and-mouth,foot-and-mouth,1,1
+combined,lumpy,0,img1245.jpg,"firm nodules or lumps on the skin, high fever",unclear,lumpy,0,1
+combined,lumpy,1,img2285_jpg.rf.82ed4b0b84ab9aeb8959867af324c6f3.jpg,"reduced milk production, firm nodules or lumps on the skin",unclear,lumpy,0,1
+combined,lumpy,2,Lumpy_Skin_260_png.rf.16982e7b634f334361bedaf6d80a4e8c.jpg,"watery eyes or nasal discharge, high fever, swollen lymph nodes",unclear,lumpy,0,1
+combined,lumpy,3,Lumpy_Skin_254.png,"reduced milk production, weight loss, watery eyes or nasal discharge",unclear,lumpy,0,1
+combined,lumpy,4,17_jpg_jpeg_jpg.rf.7f2e9cc483c2e49098c2ec8af33a80bc.jpg,"firm nodules or lumps on the skin, watery eyes or nasal discharge, high fever, reduced milk production",unclear,lumpy,0,1
+combined,lumpy,5,Lumpy_Skin_90.png,"weight loss, reduced milk production, high fever",unclear,lumpy,0,1
+combined,lumpy,6,img1953_jpg.rf.2e0048dc6142d72e0095ff0bb1b311d9.jpg,"weight loss, watery eyes or nasal discharge, swollen lymph nodes",unclear,lumpy,0,1
+combined,lumpy,7,img1627_jpg.rf.23b1338b6a0ef1bab1d4fc347789a58b.jpg,"high fever, swollen lymph nodes, firm nodules or lumps on the skin",unclear,lumpy,0,1
+combined,lumpy,8,LS-10_jpg.rf.3e3f01274bfd56e56aa23da3b49f1507.jpg,"firm nodules or lumps on the skin, reduced milk production, watery eyes or nasal discharge",foot-and-mouth,lumpy,0,1
+combined,lumpy,9,Lumpy_Skin_9_png.rf.c470d7df7b41fedf498165d1ad091e2d.jpg,"weight loss, high fever",foot-and-mouth,lumpy,0,1
+combined,lumpy,10,img1068.jpg,"watery eyes or nasal discharge, high fever",foot-and-mouth,lumpy,0,1
+combined,lumpy,11,img1129.jpg,"high fever, swollen lymph nodes, reduced milk production, weight loss",unclear,lumpy,0,1
+combined,lumpy,12,IMG_20220830_075854_jpg.rf.34007dd888b4884a0738b790b5fee9de.jpg,"watery eyes or nasal discharge, firm nodules or lumps on the skin",unclear,lumpy,0,1
+combined,lumpy,13,10_jpg.rf.e3ffb69d621d07c9d144b189c5e2323b.jpg,"high fever, watery eyes or nasal discharge, firm nodules or lumps on the skin",foot-and-mouth,lumpy,0,1
+combined,lumpy,14,LSD-154-_png_jpg.rf.7daf7c980f71a884a2427c33bd77197c.jpg,"swollen lymph nodes, weight loss",unclear,lumpy,0,1
+combined,lumpy,15,Lumpy_Skin_53.png,"watery eyes or nasal discharge, swollen lymph nodes, reduced milk production",healthy,lumpy,0,1
+combined,lumpy,16,IMG_20220906_172416_jpg.rf.7db1a2bc520b238b43464ee7c5373e86.jpg,"swollen lymph nodes, reduced milk production, watery eyes or nasal discharge",unclear,lumpy,0,1
+combined,lumpy,17,img1287.jpg,"reduced milk production, swollen lymph nodes",lumpy,lumpy,1,1
+combined,lumpy,18,Lumpy_Skin_174.png,"weight loss, watery eyes or nasal discharge, reduced milk production, swollen lymph nodes",unclear,lumpy,0,1
+combined,lumpy,19,IMG-20220830-WA0127_jpg.rf.f1bcd4a9bc42feeb7a735ae2a440ea04.jpg,"firm nodules or lumps on the skin, weight loss",unclear,lumpy,0,1
+combined,lumpy,20,Lumpy_Skin_173.png,"swollen lymph nodes, weight loss, watery eyes or nasal discharge, high fever",unclear,lumpy,0,1
+combined,lumpy,21,LSD-173-_png_jpg.rf.40773a4e94815b5a4ad917a23fafb4ea.jpg,"firm nodules or lumps on the skin, reduced milk production, watery eyes or nasal discharge, high fever",unclear,lumpy,0,1
+combined,lumpy,22,27_jpg_jpeg_jpg.rf.cae38b133e74dd74abc04417396388b8.jpg,"watery eyes or nasal discharge, swollen lymph nodes, weight loss",unclear,lumpy,0,1
+combined,lumpy,23,IMG_20220829_124417_jpg.rf.1234442662c169b5915e8368b318497d.jpg,"watery eyes or nasal discharge, swollen lymph nodes, high fever",foot-and-mouth,lumpy,0,1
+combined,lumpy,24,IMG_20220830_075803_jpg.rf.d557e670ce03693ddcff955a495341df.jpg,"weight loss, high fever",foot-and-mouth,lumpy,0,1
+combined,lumpy,25,Lumpy_Skin_243.png,"weight loss, reduced milk production",unclear,lumpy,0,1
+combined,lumpy,26,IMG_20220830_104851_jpg.rf.860ea9aa63c3f2c03616f38bce0d14be.jpg,"swollen lymph nodes, high fever, firm nodules or lumps on the skin, watery eyes or nasal discharge",unclear,lumpy,0,1
+combined,lumpy,27,img1290(1).jpg,"swollen lymph nodes, watery eyes or nasal discharge, reduced milk production",foot-and-mouth,lumpy,0,1
+combined,lumpy,28,Lumpy_Skin_189_png.rf.39bd38be1aa7dde81f23c78cde0fe5a7.jpg,"reduced milk production, firm nodules or lumps on the skin, high fever",unclear,lumpy,0,1
+combined,lumpy,29,img1372.jpg,"watery eyes or nasal discharge, high fever, reduced milk production",lumpy,lumpy,1,1
+combined,healthy,0,imgs364.jpg,"smooth clean skin, normal breathing rate, normal appetite, clear bright eyes",healthy,healthy,1,1
+combined,healthy,1,imgs040.jpg,"normal appetite, clear bright eyes, normal breathing rate",healthy,healthy,1,1
+combined,healthy,2,Ayrshirecattle20.jpg,"smooth clean skin, active and alert behavior, normal breathing rate, clear bright eyes",healthy,healthy,1,1
+combined,healthy,3,Normal_Skin_628.png,"normal appetite, active and alert behavior, clear bright eyes, normal breathing rate",unclear,healthy,0,1
+combined,healthy,4,imgs058.jpg,"smooth clean skin, clear bright eyes, active and alert behavior, normal breathing rate",healthy,healthy,1,1
+combined,healthy,5,imgs113.jpg,"normal breathing rate, smooth clean skin, active and alert behavior",healthy,healthy,1,1
+combined,healthy,6,Normal_Skin_691.png,"clear bright eyes, normal appetite",healthy,healthy,1,1
+combined,healthy,7,RedDanecattle111.jpg,"normal breathing rate, normal appetite, active and alert behavior, clear bright eyes",healthy,healthy,1,1
+combined,healthy,8,imgs287.jpg,"normal appetite, clear bright eyes, smooth clean skin, active and alert behavior",healthy,healthy,1,1
+combined,healthy,9,HolsteinFriesiancattle83.jpg,"normal appetite, active and alert behavior, normal breathing rate",unclear,healthy,0,1
+combined,healthy,10,Normal_Skin_224.png,"smooth clean skin, clear bright eyes",healthy,healthy,1,1
+combined,healthy,11,Ayrshirecattle44.jpg,"clear bright eyes, active and alert behavior, normal breathing rate, normal appetite",unclear,healthy,0,1
+combined,healthy,12,Normal_Skin_569-resized.jpg,"clear bright eyes, smooth clean skin",healthy,healthy,1,1
+combined,healthy,13,imgs112.jpg,"active and alert behavior, smooth clean skin, clear bright eyes, normal appetite",unclear,healthy,0,1
+combined,healthy,14,Normal_Skin_118.png,"clear bright eyes, smooth clean skin",healthy,healthy,1,1
+combined,healthy,15,Normal_Skin_346.png,"active and alert behavior, normal breathing rate",healthy,healthy,1,1
+combined,healthy,16,image_UHJvZHVjdDoxOQ-_b46b6772_jpeg_jpg.rf.d53e9ff865bc65b6283ea16347ef3278.jpg,"normal appetite, active and alert behavior, smooth clean skin",foot-and-mouth,healthy,0,1
+combined,healthy,17,imgs135.jpg,"clear bright eyes, normal breathing rate, active and alert behavior",healthy,healthy,1,1
+combined,healthy,18,BrownSwisscattle87.jpg,"clear bright eyes, normal appetite, normal breathing rate",healthy,healthy,1,1
+combined,healthy,19,imgs504.jpg,"active and alert behavior, smooth clean skin, normal appetite, normal breathing rate",healthy,healthy,1,1
+combined,healthy,20,Non-diseased-muzzle-8-with-tongue_jpg.rf.7faa2961f253d8622b31bf0ef09fab03.jpg,"active and alert behavior, normal appetite, smooth clean skin, clear bright eyes",healthy,healthy,1,1
+combined,healthy,21,imgs416.jpg,"active and alert behavior, normal breathing rate, smooth clean skin, clear bright eyes",healthy,healthy,1,1
+combined,healthy,22,imgs462.jpg,"active and alert behavior, normal appetite, normal breathing rate",unclear,healthy,0,1
+combined,healthy,23,sapi_f_7.jpg,"normal breathing rate, smooth clean skin, normal appetite, clear bright eyes",foot-and-mouth,healthy,0,1
+combined,healthy,24,HolsteinFriesiancattle24.jpg,"smooth clean skin, normal breathing rate",healthy,healthy,1,1
+combined,healthy,25,imgs011.jpg,"normal breathing rate, smooth clean skin, active and alert behavior",healthy,healthy,1,1
+combined,healthy,26,sapi_z_11.jpg,"active and alert behavior, smooth clean skin, normal breathing rate, clear bright eyes",foot-and-mouth,healthy,0,1
+combined,healthy,27,imgs229.jpg,"active and alert behavior, clear bright eyes",healthy,healthy,1,1
+combined,healthy,28,Normal_Skin_99.png,"active and alert behavior, normal breathing rate",healthy,healthy,1,1
+combined,healthy,29,Normal_Skin_47.png,"active and alert behavior, normal breathing rate, smooth clean skin, normal appetite",unclear,healthy,0,1

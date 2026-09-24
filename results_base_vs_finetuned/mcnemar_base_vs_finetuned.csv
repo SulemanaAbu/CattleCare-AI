@@ -1,0 +1,5 @@
+mode,n,both_correct,base_only_correct,finetuned_only_correct,both_wrong,p_value,significant_at_0.05
+image_only,90,29,0,57,4,1.39e-17,True
+symptoms_only,90,39,0,51,0,8.88e-16,True
+combined,90,52,0,38,0,7.28e-12,True
+all_modes,270,120,0,146,4,2.24e-44,True
